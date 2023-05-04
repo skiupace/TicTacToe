@@ -10,7 +10,7 @@ void errorHanlder(int var) {
 }
 
 int main() {
-
+	
 	TicTacToe T;
 	int choice = 0;
 

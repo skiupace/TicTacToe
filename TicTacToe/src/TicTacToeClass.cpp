@@ -14,10 +14,12 @@ bool TicTacToe::errorHanlder(int first_var, int second_var) {
 	if (std::cin.fail()) {
 		std::cin.clear();
 		std::cin.ignore(256, '\n');
+
 		std::cout << "Wrong input, please try again ...\n";
+		return true;
 	}
 	
-	return true;
+	return false;
 }
 
 void TicTacToe::progressBar() {
