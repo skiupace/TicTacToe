@@ -1,6 +1,6 @@
 #include <iostream>
 #include <Windows.h>
-#include "../classes/TicTacToeClass.h"
+#include "TicTacToeClass.h"
 
 void TicTacToe::viewGameMenu() {
 	std::cout << "--- Tic Tac Toe Game ---\n\n";
